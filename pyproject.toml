@@ -1,0 +1,15 @@
+[project]
+name = "grok-provider-model-sync"
+version = "0.1.0"
+description = "Sync [model.*] entries in a Grok config.toml with models.dev provider catalogs"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+    "prettytable>=3.16.0",
+    "pydantic>=2",
+    "requests>=2.31",
+    "tomlkit>=0.12",
+]
+
+[tool.uv]
+package = false
